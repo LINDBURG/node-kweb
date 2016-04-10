@@ -7,8 +7,8 @@ It is mainly conducted as a part of a subgroup-study of Korea University Web Mas
 For information, contact enginehenryed@gmail.com
 
 # Participant
-engine\n
-hg\n
-jh\n
+engine
+hg
+jh
 jh
 
