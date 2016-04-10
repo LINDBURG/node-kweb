@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<style>
+    .no-show {
+        display: none;
+    }
+
+    #about {
+        font-size: 20px;
+    }
+
+    #about li {
+        list-style: none;
+    }
+
+</style>
+
+<body>
+
+<% include content/header.ejs %>
+
+
+    <div id="about" class="">
+        <div class="container">
+
+            <p>This is <%= title %> page!</p>
+
+            <ul>
+                <% data.kweb.forEach(function(item) { %>
+                <li><%= item.name + " " + item.status %></li>
+                <% })%>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<style>
+
+
+</style>
+
+

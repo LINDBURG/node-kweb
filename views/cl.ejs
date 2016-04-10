@@ -1,0 +1,30 @@
+<style>
+    #about {
+        font-size: 20px;
+    }
+
+    #about li {
+        list-style: none;
+    }
+
+</style>
+
+
+<div id="about" class="<%= about ? "about" : "no-show"%>">
+    <div class="container">
+
+        <p>This is <%= title %> page!</p>
+
+        <ul>
+            <% data.kweb.forEach(function(item) { %>
+            <li><%= item.name + " " + item.status %></li>
+            <% })%>
+
+        </ul>
+    </div>
+
+</div>
+
+
+
+
