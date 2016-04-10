@@ -6,7 +6,7 @@ The project started as a one-semester-long workshop for studying node.js and ang
 It is mainly conducted as part of a subgroup-study of Korea University Web Master's club, during Spring semester of 2016.
 For information, please contact enginehenryed@gmail.com
 
-# Participant
+# Participants
 engine, enginehenryed@gmail.com  
 hg  
 jh  
